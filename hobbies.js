@@ -5,3 +5,5 @@ function hobby(hobbyOne, hobbyTwo, hobbyThree) {
 export {
     hobby
 };
+
+console.log(hobby)
