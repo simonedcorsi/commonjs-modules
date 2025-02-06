@@ -4,3 +4,7 @@ function nomeCognome(firstName, lastName) {
         lastName:corsi
     };
 }
+
+export {
+    nomeCognome 
+};
