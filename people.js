@@ -1,10 +1,11 @@
-import { nomeCognome } from "./names";
-import { hobby } from "./hobbies";
-
+import nomeCognome from "./names.js";
+import hobby from "./hobbies.js";
 
 function completa() {
     return {
-        nomeCognome,
-        hobby
+        fullName: nomeCognome('simone', 'corsi'),
+        hobbies: hobby('pesca', 'carte', 'nuoto')
     };
 }
+
+console.log(completa());

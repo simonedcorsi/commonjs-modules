@@ -6,8 +6,5 @@ function nomeCognome(firstName, lastName) {
     
 }
 
-console.log(nomeCognome('simone', 'corsi'));
-export {
-    nomeCognome 
-};
+export default nomeCognome;
     
